@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    app:cardElevation="3dp"
+    android:layout_marginTop="-5dp"
+    app:cardUseCompatPadding="true"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/level"
+                android:text="level"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_lens_black_24dp"
+                android:drawablePadding="5dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/term"
+                android:text="term"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_lens_black_24dp"
+                android:drawablePadding="5dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/shift"
+                android:text="shift"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_wb_sunny_black_24dp"
+                android:drawablePadding="5dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/section"
+                android:text="section"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_turned_in_not_black_24dp"
+                android:drawablePadding="5dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/day"
+                android:text="day"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:drawablePadding="5dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/time"
+                android:text="time"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                android:drawablePadding="5dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cname"
+                android:id="@+id/te_course"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_import_contacts_black_24dp"
+                android:drawablePadding="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tname"
+                android:id="@+id/te_name"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawablePadding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="room"
+                android:id="@+id/room"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_home_black_24dp"
+                android:drawablePadding="5dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

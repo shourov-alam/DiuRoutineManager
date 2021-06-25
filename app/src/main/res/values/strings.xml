@@ -1,0 +1,219 @@
+<resources>
+
+    <string name="app_name">Diu Routine Manager</string>
+    <string-array name="level">
+        <item>LEVEL-1</item>
+        <item>LEVEL-2</item>
+        <item>LEVEL-3</item>
+        <item>LEVEL-4</item>
+    </string-array>
+
+    <string-array name="week">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+
+    </string-array>
+
+    <string-array name="time">
+        <item>8:30AM-10:00AM</item>
+        <item>10:00AM-11:30AM</item>
+        <item>11:30AM-01:00PM</item>
+        <item>01:00PM-02:30PM</item>
+        <item>02:30PM-04:00PM</item>
+        <item>04:00PM-05:30PM</item>
+        <item>06:00PM-07:30PM</item>
+        <item>07:30PM-09:00PM</item>
+
+    </string-array>
+
+    <string-array name="term">
+        <item>TERM-1</item>
+        <item>TERM-2</item>
+        <item>TERM-3</item>
+    </string-array>
+
+    <string-array name="shift">
+        <item>Day</item>
+        <item>Evening</item>
+    </string-array>
+
+    <string-array name="section">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>B</item>
+        <item>R1</item>
+        <item>R2</item>
+        <item>R3</item>
+        <item>R4</item>
+        <item>O0</item>
+        <item>O1</item>
+        <item>O2</item>
+        <item>O3</item>
+        <item>O4</item>
+        <item>O5</item>
+        <item>O6</item>
+        <item>07</item>
+        <item>O8</item>
+        <item>O9</item>
+        <item>O10</item>
+        <item>O11</item>
+        <item>O12</item>
+        <item>O13</item>
+        <item>O14</item>
+        <item>O15</item>
+        <item>O16</item>
+        <item>O17</item>
+        <item>O18</item>
+        <item>O19</item>
+
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_classes">Classes</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_emptyRoom">Empty Rooms</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_customSerach">Custom Search</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Class Routine</item>
+        <item>Profile</item>
+        <item>Empty Rooms</item>
+        <item>Notifications</item>
+        <item>Exam Routine</item>
+        <item>Custom Search</item>
+        <item>Counseling Time</item>
+
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="action_logout">Logout</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="time_type">
+        <item>PM</item>
+        <item>AM</item>
+    </string-array>
+
+    <string-array name="time_hour">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="time_minute">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+</resources>

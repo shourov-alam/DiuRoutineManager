@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fefefe"
+    tools:context=".Activity.LogIn">
+
+
+    <ProgressBar
+        android:layout_marginTop="-5dp"
+        android:id="@+id/progresssbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:progressTint="@color/colorPrimary"
+        android:visibility="visible"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/di"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <EditText
+
+            android:id="@+id/emailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_border"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="16sp"
+            android:inputType="textNoSuggestions"
+
+            android:hint="Email"
+            android:padding="12dp" />
+
+        <EditText
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="16sp"
+            android:padding="12dp"
+            android:background="@drawable/round_border"
+            android:hint="Password"
+            android:id="@+id/passET"
+            android:inputType="textPassword"
+            />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/forgetTV"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:padding="12dp"
+            android:background="@drawable/btn_border"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+
+            android:id="@+id/loginBT"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="OR"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:padding="12dp"
+            android:background="@drawable/btn_border"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/registerBT"
+
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

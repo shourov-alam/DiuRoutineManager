@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1095349958538",
+    "project_id": "diu-routine-manager",
+    "storage_bucket": "diu-routine-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095349958538:android:9a14c2e7b6c95847bb7a73",
+        "android_client_info": {
+          "package_name": "com.al.diuroutinemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095349958538-mth1576vhl8h5js0grfba1rlnif3k7jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbE05zf4DTAE8R1WZ4HYOneUaUYJFkwPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095349958538-mth1576vhl8h5js0grfba1rlnif3k7jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
